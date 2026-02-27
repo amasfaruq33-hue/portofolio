@@ -458,7 +458,7 @@ function App() {
                 Saya adalah siswa magang dari SMK jurusan Rekayasa Perangkat Lunak yang memiliki passion dalam pengembangan web dan aplikasi. Saya senang mempelajari teknologi baru dan menerapkannya dalam proyek nyata.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Selama magang, saya telah mengerjakan berbagai proyek yang melibatkan frontend dan backend development. Saya percaya bahwa kode yang baik adalah kode yang tidak hanya berfungsi dengan baik, tetapi juga mudah dibaca dan dipelihara.
+                 Saya percaya bahwa kode yang baik adalah kode yang tidak hanya berfungsi dengan baik, tetapi juga mudah dibaca dan dipelihara.
               </p>
               
               {/* Stats dengan Counter Animation */}
@@ -663,9 +663,9 @@ function App() {
               
               <div className="space-y-6">
                 {[
-                  { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'siswa.rpl@email.com' },
-                  { icon: <Phone className="w-5 h-5" />, label: 'Telepon', value: '+62 812-3456-7890' },
-                  { icon: <MapPin className="w-5 h-5" />, label: 'Lokasi', value: 'Jakarta, Indonesia' }
+                  { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'amasfaruq33@email.com' },
+                  { icon: <Phone className="w-5 h-5" />, label: 'Telepon', value: '+' },
+                  { icon: <MapPin className="w-5 h-5" />, label: 'Lokasi', value: 'lumajang, jawa timur' }
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-4" data-cursor-hover>
                     <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-[#0084ff]">
@@ -696,7 +696,7 @@ function App() {
                   <label className="block text-sm font-medium mb-2">Nama</label>
                   <div className="input-line">
                     <Input 
-                      placeholder="Masukkan nama Anda" 
+                      placeholder="Muhammad Akhmas Faruq" 
                       className="border-0 border-b rounded-none px-0 focus-visible:ring-0"
                       required
                     />
@@ -707,7 +707,7 @@ function App() {
                   <div className="input-line">
                     <Input 
                       type="email"
-                      placeholder="Masukkan email Anda" 
+                      placeholder="amasfaruq33@gmail.com" 
                       className="border-0 border-b rounded-none px-0 focus-visible:ring-0"
                       required
                     />
@@ -717,7 +717,7 @@ function App() {
                   <label className="block text-sm font-medium mb-2">Pesan</label>
                   <div className="input-line">
                     <Textarea 
-                      placeholder="Tulis pesan Anda..." 
+                      placeholder="..." 
                       className="border-0 border-b rounded-none px-0 focus-visible:ring-0 min-h-[120px] resize-none"
                       required
                     />
@@ -767,7 +767,7 @@ function App() {
           </div>
           
           <div className="mt-8 pt-8 border-t border-white/10 text-center text-gray-400 text-sm">
-            <p>© 2025 Portfolio SMK RPL. Dibuat dengan ❤️ menggunakan React & Tailwind CSS.</p>
+            <p>© 2025 Portfolio SMK RPL.</p>
           </div>
         </div>
       </footer>
